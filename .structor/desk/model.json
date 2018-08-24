@@ -9,36 +9,28 @@
           "variant": "default",
           "props": {
             "style": {
-              "color": "#6b6161"
+              "maxWidth": "800px",
+              "paddingTop": "60px",
+              "paddingBottom": "60px",
+              "marginLeft": "auto",
+              "marginRight": "auto"
             }
           },
           "children": [
             {
-              "type": "div",
+              "type": "span",
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "fontFamily": "'Raleway",
+                  "display": "block",
+                  "fontSize": "24px",
+                  "fontWeight": 700,
+                  "lineHeight": "30px"
                 }
               },
-              "children": [
-                {
-                  "type": "span",
-                  "text": "Hello dsfsdfWorld 🖍🖍",
-                  "props": {
-                    "style": {
-                      "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
-                    }
-                  }
-                }
-              ]
+              "children": [],
+              "text": "Text"
             }
           ]
         }

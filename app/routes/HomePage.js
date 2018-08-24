@@ -9,27 +9,26 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <div style={{ color: "#6b6161" }}>
-          <div
+        <div
+          style={{
+            maxWidth: "800px",
+            paddingTop: "60px",
+            paddingBottom: "60px",
+            marginLeft: "auto",
+            marginRight: "auto"
+          }}
+        >
+          <span
             style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
+              fontFamily: "Raleway",
+              display: "block",
+              fontSize: "24px",
+              fontWeight: 700,
+              lineHeight: "30px"
             }}
           >
-            <span
-              style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
-              }}
-            >
-              Hello dsfsdfWorld 🖍🖍
-            </span>
-          </div>
+            Text
+          </span>
         </div>
       </div>
     ); // eslint-disable-line
