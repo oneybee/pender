@@ -29,6 +29,7 @@ class HomePage extends Component {
           >
             Text
           </span>
+          <div style={{ paddingTop: "26px" }} />
         </div>
       </div>
     ); // eslint-disable-line

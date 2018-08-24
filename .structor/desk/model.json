@@ -22,7 +22,7 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "fontFamily": "'Raleway",
+                  "fontFamily": "Raleway",
                   "display": "block",
                   "fontSize": "24px",
                   "fontWeight": 700,
@@ -31,6 +31,16 @@
               },
               "children": [],
               "text": "Text"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingTop": "26px"
+                }
+              },
+              "children": []
             }
           ]
         }
@@ -42,21 +52,70 @@
       "children": [
         {
           "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "maxWidth": "800px",
+              "paddingTop": "60px",
+              "paddingBottom": "60px",
+              "marginLeft": "auto",
+              "marginRight": "auto"
+            }
+          },
           "children": [
             {
-              "type": "h3",
+              "type": "span",
+              "variant": "default",
               "props": {
                 "style": {
-                  "textAlign": "center",
-                  "padding": "15px"
+                  "fontFamily": "Raleway",
+                  "display": "block",
+                  "fontSize": "24px",
+                  "fontWeight": 700,
+                  "lineHeight": "30px"
                 }
               },
-              "children": [
-                {
-                  "type": "span",
-                  "text": "work page"
+              "children": [],
+              "text": "Text"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingTop": "26px"
                 }
-              ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "marginLeft": "1%",
+              "marginRight": "1%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "1%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {},
+              "children": [],
+              "text": "Text"
             }
           ]
         }
