@@ -1,6 +1,7 @@
 import React from "react";
 import HomePage from "./HomePage";
 import Page6 from "./Page6";
+
 class App extends React.Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class App extends React.Component {
     );
   }
 }
+
 export default {
   path: "/",
   component: App,

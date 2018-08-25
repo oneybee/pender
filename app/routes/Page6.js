@@ -3,12 +3,16 @@
  * Page6
  *
  */
+
 import React, { Component } from "react";
+
 class Page6 extends Component {
   // eslint-disable-line react/prefer-stateless-function
+
   render() {
     return (
       <div>
+
         <div
           style={{
             maxWidth: "800px",
@@ -31,11 +35,14 @@ class Page6 extends Component {
           </span>
           <div style={{ paddingTop: "26px" }} />
         </div>
+
         <div style={{ marginLeft: "1%", marginRight: "1%" }}>
-          <div style={{ marginBottom: "1%" }} /><span>Text</span>
+          <div style={{ marginBottom: "1%" }} /><span>sdfsdf</span>
         </div>
+
       </div>
     ); // eslint-disable-line
   }
 }
+
 export default Page6;

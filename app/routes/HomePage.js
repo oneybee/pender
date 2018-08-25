@@ -3,12 +3,16 @@
  * HomePage
  *
  */
+
 import React, { Component } from "react";
+
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
+
   render() {
     return (
       <div>
+
         <div
           style={{
             maxWidth: "800px",
@@ -31,8 +35,10 @@ class HomePage extends Component {
           </span>
           <div style={{ paddingTop: "26px" }} />
         </div>
+
       </div>
     ); // eslint-disable-line
   }
 }
+
 export default HomePage;
